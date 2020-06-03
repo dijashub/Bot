@@ -1,0 +1,22 @@
+<div class="center">
+
+
+<ng-container *ngFor="let msg of messages | async">
+
+
+  <div class = "break message" [ngClass] = "{'from': msg.sentBy === 'BOT','to': msg.sentBy === 'Human' }">
+                                    
+                                      {{ msg.content }}
+                                    </div> 
+
+</ng-container>
+
+
+<br>
+<label for= "nameField">Your Message </label>
+<br>
+<input [(ngModel)] = "formValue" (keyup.enter)="sendMessage()" type="text"><br>
+
+
+<button class="button button2" (click) = "sendMessage()">Send</button>
+</div>

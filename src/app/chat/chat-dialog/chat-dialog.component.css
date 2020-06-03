@@ -1,0 +1,91 @@
+.message {
+
+    border-radius: 50px;    
+    margin: 0 15px 10px;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+    width: 30%;
+    }
+    
+    
+    .message.to {
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 100px;
+    text-align: right;
+    }
+    
+    
+    .message.from {
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-right: 100px;
+    
+    }
+    .message.to + .message.to,
+    .message.from + .message.from {
+     margin-top: -10px;
+    }
+
+    .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+
+      .button {
+        background-color: #D21B64; /* Green */
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+
+
+      input[type=text] {
+        width: 50%;
+        text-align: center;
+        background-color: #733190;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=text]:hover {
+        background-color: #D21B64;
+      }
+      
+
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .center {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+      }
+      
+      
+      
+      
+    
